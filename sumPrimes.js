@@ -20,3 +20,8 @@ const sumPrimes = range =>{
     return sum;
   }
 }
+
+//Test cases
+//console.log(sumPrimes(100000));
+//console.log(sumPrimes(199));
+//console.log(sumPrimes(10));
