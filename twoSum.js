@@ -9,3 +9,7 @@ const twoSum = (nums, target) =>{
     }
     return [];
 }
+
+//Test cases
+//console.log(twoSum([1, 4, 5, 6, 11], 17));
+//console.log(twoSum([3,3], 6));
