@@ -4,13 +4,13 @@ const sumPrimes = range =>{
   do{
       let isPrime = true;
 
-      for(let i = 2; i < number; i++){
+      for(let i = 2; i < number; i++){ 
           if(number % i === 0){
               isPrime = false;
               break;
           }
       }
-
+   //the for loop starts dividing from 2 and stops just before the number that's being checked
       if(isPrime){
           sum += number;
       }
