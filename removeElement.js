@@ -10,7 +10,7 @@ const removeElement = (nums, val) =>{
 
 //The output of the code below is the length of the array after removing the element(s)
 /*
-var removeElement = function(nums, val) {
+const removeElement = function(nums, val) {
   let i = 0;
   for (let j = 0; j < nums.length; j++) {
     if (nums[j] !== val) {
