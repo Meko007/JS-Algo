@@ -1,4 +1,4 @@
-var removeElement = (nums, val) =>{
+const removeElement = (nums, val) =>{
   nums = nums.filter(item => item !== val);
   return nums;
 };
