@@ -1,3 +1,4 @@
+//returns the array indexes that add up to the target
 const twoSum = (nums, target) =>{
     let map = new Map();
 
