@@ -1,2 +1,2 @@
 # JS-Algo
- JavaScript Algorithms
+ JavaScript Algorithms from Leetcode, Codewars etc.
