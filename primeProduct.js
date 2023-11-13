@@ -10,12 +10,9 @@ const primeProduct = n => {
         return true;
     };
    
-    for(let i = n - 1; i >= 1; i--){
-        for(let j = n - 1; j >= i; j--){
-            if(i + j === n && isPrime(i) && isPrime(j)){
-                return i * j;
-            }
-        }
+    for(let i = Math.floor(n / 2); i >= 2; i--){
+        let j = n - i;
+        if(isPrime(i) && isPrime(j)) return i * j;
     }
     return 0;
 };
@@ -26,3 +23,4 @@ const primeProduct = n => {
 // console.log(primeProduct(20));
 // console.log(primeProduct(100));
 // console.log(primeProduct(4));
+// console.log(primeProduct(60570));
