@@ -2,13 +2,13 @@ const palindromeChecker = (str) => {
   str = str.toLowerCase();
   const regex = /\W/g; //a regular expression to match non alphamumeric characters (whitespace, periods etc)
 
-  const cleanedString = str.replace(regex, '');
-  let reversed = '';
+  const cleanedStr = str.replace(regex, '');
+  let rev = '';
 
-  for(let i = cleanedString.length - 1; i >= 0; i--){
-    reversed += cleanedString[i];
+  for(let i = cleanedStr.length - 1; i >= 0; i--){
+    reve += cleanedStr[i];
   }
- return reversed === cleanedString ? "A palindrome" : "Not a palindrome";
+ return reve === cleanedStr ? "A palindrome" : "Not a palindrome";
 }
 
 //Test cases
