@@ -6,9 +6,9 @@ const palindromeChecker = (str) => {
   let rev = '';
 
   for(let i = cleanedStr.length - 1; i >= 0; i--){
-    reve += cleanedStr[i];
+    rev += cleanedStr[i];
   }
- return reve === cleanedStr ? "A palindrome" : "Not a palindrome";
+ return rev === cleanedStr ? "A palindrome" : "Not a palindrome";
 }
 
 //Test cases
