@@ -1,5 +1,5 @@
 //returns the array indexes that add up to the target
-const twoSum = (nums, target) =>{
+const twoSum = (nums, target) => {
     let map = new Map();
 
     for(let i = 0; i < nums.length; i++){
@@ -9,7 +9,7 @@ const twoSum = (nums, target) =>{
         map.set(nums[i], i);
     }
     return [];
-}
+};
 
 //Test cases
 //console.log(twoSum([1, 4, 5, 6, 11], 17));
