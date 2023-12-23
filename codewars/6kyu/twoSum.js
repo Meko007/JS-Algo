@@ -20,7 +20,7 @@ const twoSum = (nums, target) => {
 };
 
 // Test cases
-console.log(twoSum([1, 2, 3], 4));
-console.log(twoSum([1234, 5678, 9012], 14690));
-console.log(twoSum([2, 2, 3], 4));
-console.log(twoSum([2, 3, 1], 3));
+// console.log(twoSum([1, 2, 3], 4));
+// console.log(twoSum([1234, 5678, 9012], 14690));
+// console.log(twoSum([2, 2, 3], 4));
+// console.log(twoSum([2, 3, 1], 3));
