@@ -1,2 +1,2 @@
-# JS-Algo
- JavaScript Algorithms from Leetcode, Codewars etc.
+# JS/TS-Algo
+ JavaScript/TypeScript Algorithms from Leetcode, Codewars etc.
