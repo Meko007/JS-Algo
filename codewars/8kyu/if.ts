@@ -1,0 +1,1 @@
+const _if = <T>(bool: boolean, func1: () => T, func2: () => T): T => bool ? func1() : func2();
