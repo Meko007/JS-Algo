@@ -10,12 +10,9 @@ All numbers are valid Int32, no need to validate them.
 There will always be at least one number in the input string.
 Output string must be two numbers separated by a single space, and highest number is first.
 */
-const highAndLow = numbers => {
-    let numArr = numbers.split(" ").map(Number);
-    
-    return `${Math.max(...numArr)} ${Math.min(...numArr)}`;
-};
+const highAndLow = numbers => 
+    `${Math.max(...numbers.split(' '))} ${Math.min(...numbers.split(' '))}`;
 
 // Test cases
-// console.log(highAndLow('8 3 -5 42 -1 0 0 -9 4 7 4 -4'));
-// console.log(highAndLow('1 2 3'));
+console.log(highAndLow('8 3 -5 42 -1 0 0 -9 4 7 4 -4'));
+console.log(highAndLow('1 2 3'));
