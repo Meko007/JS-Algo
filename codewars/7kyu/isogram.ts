@@ -1,0 +1,1 @@
+const isIsogram = (str: string): boolean => /^(?!.*(.).*\1)[a-zA-Z]*$/i.test(str);
