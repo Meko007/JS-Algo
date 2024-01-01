@@ -1,5 +1,5 @@
 /*
-avaScript's indexOf does not work with arrays as input. 
+JavaScript's indexOf does not work with arrays as input. 
 This is because [1,2] === [1,2] will return false in JavaScript. 
 Many other languages have similar quirks.
 
