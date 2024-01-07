@@ -1,0 +1,1 @@
+const digitize = (n: number): number[] => [...n.toString()].reverse().map(Number);
